@@ -1,0 +1,37 @@
+.introductory {
+    background-color: white;
+    height: 100vh;
+    background-image: url("images/landing.jpg");
+    background-size: cover;
+    border: 2px solid white;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 900px;
+    text-indent: 50px;
+    font-size: 200%;
+
+}
+
+.block {
+    display: block;
+    width: 30%;
+    height: 30px;
+    padding: 5px;
+    float: left;
+    margin-bottom: 100%;
+    
+    /* border: 1px solid black; */
+}
+.food{
+    float: right;
+}
