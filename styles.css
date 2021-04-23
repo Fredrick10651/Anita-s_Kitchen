@@ -28,10 +28,11 @@
     height: 30px;
     padding: 5px;
     float: left;
-    margin-bottom: 100%;
-    
+    margin-bottom: 1000px;
+
     /* border: 1px solid black; */
 }
-.food{
+
+.food {
     float: right;
 }
