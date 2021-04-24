@@ -56,25 +56,114 @@
     width: 26%;
     /* border: 2px solid grey; */
 }
-.drinks{
-   /* float: right; */
-   float: left;
-   display: block;
-   margin: 15px 2% 0 2%;
-   width: 66%;
-   /* The width should be variable */ 
+
+.drinks {
+    /* float: right; */
+    float: left;
+    display: block;
+    margin: 15px 2% 0 2%;
+    width: 66%;
+    /* The width should be variable */
 }
 
 /*  */
-.takeaway{
+.takeaway {
     margin-bottom: 200px;
 }
-.beverages{
+
+.beverages {
     margin-bottom: 200px;
     /* display: flex;
     justify-content: center; */
 }
-.snacks{
+
+.snacks {
     display: flex;
     justify-content: space-evenly;
+}
+
+.variety {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#one {
+    border: 2px solid grey;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+
+#two {
+    border: 2px solid grey;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: grey;
+}
+
+#three {
+    border: 2px solid grey;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: grey;
+}
+
+#four {
+    border: 2px solid grey;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: grey;
+}
+
+.brand {
+    border: 2px solid grey;
+    padding: 100px;
+    margin-bottom: 100px;
+
+}
+
+.recommended {
+    /* border: 2px solid grey;
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px; */
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.visitors {
+    display: flex;
+    justify-content: center;
+
+}
+
+.email {
+    background-image: url("images/subscribe.jpg");
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+
+.signs {
+    background-color: #F15A29;
+    height: 200px;
+    /* display: flex; */
+    justify-content: center;
+
+}
+
+.form {
+    display: flex;
+}
+
+.vl {
+    top: 30px;
+    border-left: 1px solid grey;
+    height: 100px;
 }
