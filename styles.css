@@ -23,16 +23,58 @@
 }
 
 .block {
-    display: block;
+    /* display: block;
     width: 30%;
     height: 30px;
     padding: 5px;
     float: left;
-    margin-bottom: 1000px;
+    margin-bottom: 1000px; */
 
     /* border: 1px solid black; */
+    float: left;
+    display: block;
+    margin: 15px 2% 0 2%;
+    width: 26%;
+    /* I cannot use that */
+    /* border: 2px solid grey;
+    padding: 50px 50px 50px 50px; */
 }
 
 .food {
+    /* float: right; */
     float: right;
+    display: block;
+    margin: 15px 2% 0 2%;
+    width: 66%;
+    /* The width should be variable */
+}
+
+.soft {
+    float: right;
+    display: block;
+    margin: 15px 2% 0 2%;
+    width: 26%;
+    /* border: 2px solid grey; */
+}
+.drinks{
+   /* float: right; */
+   float: left;
+   display: block;
+   margin: 15px 2% 0 2%;
+   width: 66%;
+   /* The width should be variable */ 
+}
+
+/*  */
+.takeaway{
+    margin-bottom: 200px;
+}
+.beverages{
+    margin-bottom: 200px;
+    /* display: flex;
+    justify-content: center; */
+}
+.snacks{
+    display: flex;
+    justify-content: space-evenly;
 }
