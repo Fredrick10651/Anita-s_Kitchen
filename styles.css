@@ -33,6 +33,8 @@ body {
     display: block;
     margin: 15px 2% 0 2%;
     width: 26%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
     /* I cannot use that */
     
 
@@ -47,12 +49,7 @@ body {
     /* The width should be variable */
 }
 
-/* .soft {
-    float: right;
-   
-    margin: 15px 2% 0 2%;
-    
-} */
+
 
 .drinks {
     float: right;
@@ -68,8 +65,7 @@ body {
 
 .beverages {
     margin-bottom: 100px;
-    /* display: flex;
-    justify-content: center; */
+   
 }
 
 .snacks {
@@ -85,18 +81,14 @@ body {
 
 
 .brand {
-    /* border: 2px solid grey; */
+   
     padding: 0px;
     margin-bottom: 100px;
 
 }
 
 .recommended {
-    /* border: 2px solid grey;
-    width: 1000px;
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 100px; */
+   
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
@@ -173,7 +165,7 @@ body {
 .dinner {
     background-image: url("images/dinner.jpg");
     color: white;
-    /* margin-top: 20px; */
+    
 
 }
 
@@ -208,17 +200,7 @@ body {
     color: #F15A29;
 }
 
-/* .selections{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #F15A29;
-    height: 100px;
-    margin-bottom: 80px;
-} */
 
-/* .here{
-    color: #F15A29; 
-} */
 .click {
     color: white;
     background-color: #F15A29;
@@ -226,8 +208,7 @@ body {
 }
 
 #main {
-    /* width: 400px;
-    height: 400px; */
+   
     display: flex;
     flex-direction: row-reverse;
 }
@@ -259,4 +240,13 @@ body {
     color: white;
    
 
+}
+.happy{
+    background: #BDBDBD;
+  background: -moz-linear-gradient(top, #BDBDBD 0%, #BDBDBD 50%, #F15A29 50%,#F15A29 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #BDBDBD), color-stop(50%, #BDBDBD), color-stop(50%,#F15A29), color-stop(100%,#F15A29));
+  background: -webkit-linear-gradient(top, #BDBDBD 0%, #BDBDBD 50%,#F15A29 50%,#F15A29 100%);
+  background: -o-linear-gradient(top, #BDBDBD 0%, #BDBDBD 50%,#F15A29 50%,#F15A29 100%);
+  background: -ms-linear-gradient(top, #BDBDBD 0%, #BDBDBD 50%,#F15A29 50%,#F15A29 100%);
+  background: linear-gradient(to bottom, #BDBDBD 0%, #BDBDBD 50%,#F15A29 50%,#F15A29 100%);
 }
