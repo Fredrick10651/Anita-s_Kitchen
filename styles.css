@@ -28,13 +28,15 @@ body {
 }
 
 .block {
-    
+
     float: left;
     display: block;
     margin: 15px 2% 0 2%;
     width: 26%;
     /* I cannot use that */
     
+
+
 }
 
 .food {
@@ -59,6 +61,7 @@ body {
     width: 26%;
     /* The width should be variable */
 }
+
 .takeaway {
     margin-top: 100px;
 }
@@ -83,7 +86,7 @@ body {
 
 .brand {
     /* border: 2px solid grey; */
-    padding: 100px;
+    padding: 0px;
     margin-bottom: 100px;
 
 }
@@ -151,13 +154,11 @@ body {
 
 .burger {
     background-image: url("images/foodsBg.jpg");
-    height: 90vh;
+    height: 70vh;
     background-repeat: no-repeat;
 }
 
-.happy {
-    /* background-image: url("images/"); */
-}
+
 
 .breakfast {
     background-image: url("images/breakfast.jpg");
@@ -223,14 +224,39 @@ body {
     background-color: #F15A29;
     border: none;
 }
+
 #main {
     /* width: 400px;
     height: 400px; */
     display: flex;
     flex-direction: row-reverse;
-  }
-  
-  #main img{
+}
+
+#main img {
     width: 130px;
     height: 40vh;
-  }
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 20px;
+}
+
+.space {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    color: white;
+   
+
+}
