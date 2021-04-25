@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .introductory {
     background-color: white;
     height: 100vh;
@@ -24,42 +28,16 @@
 }
 
 .block {
-    /* display: block;
-    width: 30%;
-    height: 30px;
-    padding: 5px;
-    float: left;
-    margin-bottom: 1000px; */
-
-    /* border: 1px solid black; */
+    
     float: left;
     display: block;
     margin: 15px 2% 0 2%;
     width: 26%;
     /* I cannot use that */
-    /* border: 2px solid grey;
-    padding: 50px 50px 50px 50px; */
+    
 }
 
 .food {
-    /* float: right; */
-    float: right;
-    display: block;
-    margin: 15px 2% 0 2%;
-    width: 66%;
-    /* The width should be variable */
-}
-
-.soft {
-    float: right;
-    display: block;
-    margin: 15px 2% 0 2%;
-    width: 26%;
-    /* border: 2px solid grey; */
-}
-
-.drinks {
-    /* float: right; */
     float: left;
     display: block;
     margin: 15px 2% 0 2%;
@@ -67,13 +45,26 @@
     /* The width should be variable */
 }
 
-/*  */
+/* .soft {
+    float: right;
+   
+    margin: 15px 2% 0 2%;
+    
+} */
+
+.drinks {
+    float: right;
+    display: block;
+    margin: 15px 2% 0 2%;
+    width: 26%;
+    /* The width should be variable */
+}
 .takeaway {
     margin-top: 100px;
 }
 
 .beverages {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     /* display: flex;
     justify-content: center; */
 }
@@ -143,21 +134,103 @@
 .subdivisions {
     display: flex;
     justify-content: space-evenly;
-    background-color: #F15A29;
+    background-color: black;
     height: 200px;
-    
+
 }
 
 .subdivisions>div {
-    background-color: #f1f1f1;
+    background-color: white;
     margin: 1px;
-    padding: 20px;
+    padding: 30px;
     font-size: 30px;
     width: 400px;
     text-align: center;
+
 }
-.burger{
+
+.burger {
     background-image: url("images/foodsBg.jpg");
     height: 90vh;
     background-repeat: no-repeat;
 }
+
+.happy {
+    /* background-image: url("images/"); */
+}
+
+.breakfast {
+    background-image: url("images/breakfast.jpg");
+    color: white;
+}
+
+.lunch {
+    background-image: url("images/lunch.jpg");
+    color: white;
+}
+
+.dinner {
+    background-image: url("images/dinner.jpg");
+    color: white;
+    /* margin-top: 20px; */
+
+}
+
+.beef {
+    text-align: center;
+    color: #F15A29;
+}
+
+.chicken {
+    text-align: center;
+    color: #F15A29;
+}
+
+.pizza {
+    text-align: center;
+    color: #F15A29;
+}
+
+.customers {
+    text-align: center;
+}
+
+.menu {
+    text-align: center;
+}
+
+#our {
+    color: #F15A29;
+}
+
+#my {
+    color: #F15A29;
+}
+
+/* .selections{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F15A29;
+    height: 100px;
+    margin-bottom: 80px;
+} */
+
+/* .here{
+    color: #F15A29; 
+} */
+.click {
+    color: white;
+    background-color: #F15A29;
+    border: none;
+}
+#main {
+    /* width: 400px;
+    height: 400px; */
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  #main img{
+    width: 130px;
+    height: 40vh;
+  }
